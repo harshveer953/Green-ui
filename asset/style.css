@@ -1,0 +1,737 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 3px gray;
+}
+
+.logo-section{
+    width: 55%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-section img{
+    width: 30%;
+}
+
+.logo-section ul{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.logo-section ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login-section{
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.login-section ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+.login-section ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  rgb(251, 234, 211);
+}
+
+.text-part{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-part{
+    width: 50%;
+    height: auto;
+}
+
+.text h1{
+    color: rgb(13, 54, 13);
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text h6{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.text button{
+    width: 60%;
+    height: 40px;
+    background-color: rgb(18, 57, 18);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.text p:last-child{
+    font-size: 14px;
+}
+
+.center-logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.center-logo img{
+    width: 10%;
+}
+.center-logo p{
+    font-size: 22px;
+}
+
+ /* first page complete */
+
+ .container2{
+    width: 100%;
+    height: auto;
+
+ }
+
+ .navbar2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+ .navbar2 h1{
+
+    padding-top: 30px;
+ }
+
+ .card-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 40px;
+    
+    
+ }
+
+ .card{
+    width: 20%;
+    height: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 10px;
+ }
+
+ .card i{
+    font-size: 35px;
+ }
+
+ .card h1{
+    text-align: center;
+ }
+ .card p{
+    text-align: center;
+ }
+
+ .card button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(5, 54, 5);
+    border: none;
+    border-radius: 5px;
+
+ }
+
+ .card h4{
+    font-size: 16px;
+ }
+
+ .card h3{
+    font-size: 30px;
+ }
+
+      /* 2nd page complete */
+
+
+      .container3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(4, 66, 4);
+      }
+
+      .text-side{
+        width: 50%;
+        height: auto;
+        color: white;
+        text-align: start;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        padding-block: 30px;
+        padding-inline: 20px;
+        gap: 20px;
+      }
+
+      .text-side p a{
+        color: white;
+      }
+      .text-side p{
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+
+      .image-side{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+
+      }
+
+      .image-side img{
+        width: 100%;
+        height: 550px;
+      }
+
+      /* 3rd page complete */
+
+      .container4{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding-block: 60px;
+      }
+
+      .navbar3{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 2rem;
+      }
+
+      .box-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-block: 40px;
+      }
+
+      .box{
+
+        width: 400px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+
+      }
+
+      .box i{
+        font-size: 30px;
+       
+      }
+
+      .box-section2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-block: 40px;
+
+      }
+      .box p{
+        line-height: 30px;
+      }
+
+      .box h2{
+        font-size: 30px;
+      }
+
+      /* 4th page complete */
+
+      .container5{
+        width: 100%;
+        height: auto;
+        background-color: rgb(230, 237, 238);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-block: 40px;
+        
+      }
+
+      .image-section{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+      .image-section img{
+        width: 70%;
+            
+      }
+
+      .text-section{
+        width: 50%;
+        height: auto;
+       padding-inline: 20px;
+      }
+
+      .text2{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+        gap: 40px;
+      }
+      .text2 h1{
+        font-size: 55px;
+      font-weight: 600;
+color: #191919;
+      }
+      .text2 p{
+        line-height: 30px;
+        letter-spacing: 1px;
+      }
+
+      .text2 p a:first-child{
+       
+        color: green;
+
+      }
+
+      /* 5th page complete */
+
+      .container6{
+        width: 100%;
+        height: auto;
+        background-color: rgb(230, 237, 238);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+      }
+      
+      .box-section3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-inline: 30px;
+        padding-bottom: 60px;
+        gap: 20px;
+        
+      }
+
+      .box3{
+        width: 30%;
+        height: auto;
+      }
+      .box3 p{
+        line-height: 25px;
+      }
+
+
+      .box3 img{
+        width: 40%;
+      }
+
+      /* 6th page complete */
+
+      .container7{
+        width: 100%;
+        height: auto;
+
+      }
+
+      .navbar4{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-block: 40px;
+      }
+
+     .box-section4{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-block: 30px;
+     }
+
+    .box4{
+        width: 15%;
+        /* box-shadow: 0 0 10px red; */
+        height: auto;
+        padding: 10px;
+        background-color: aliceblue;
+      
+    }
+
+    .last-section{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-block: 30px;
+      line-height: 25px;
+    }
+
+
+    /* 7th page complete */
+
+    .container8{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 50px;
+      background-color: aliceblue;
+      text-align: center;
+      padding-block: 100px;
+    }
+
+    .container8 button{
+      width: 25%;
+      height: 50px;
+      background-color: rgb(2, 71, 2);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 25px;
+    }
+
+  
+
+
+    /* 8th page complete */
+
+
+    .container9{
+      width: 100%;
+      height: auto;
+      background-color: rgb(0, 40, 51);
+      color: white;
+      display: flex;
+      justify-content: center;
+    }
+
+    .first-part{
+
+      width: 30%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+      padding-block: 50px;
+      gap: 10px;
+      padding-left: 25px;
+      
+     
+    
+    }
+
+    .first-part a{
+      text-decoration: none;
+      color: white;
+    }
+    .first-part h1{
+      font-size: 20px;
+    }
+
+    
+
+
+
+      
+      
+    
+
+
+
+/* responsive start */
+
+@media (max-width : 768px) {
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 70px;
+
+    }
+
+    .logo-section{
+        width: 30%;
+    }
+
+    .login-section{
+        width: 30%;
+
+    }
+
+    .logo-section ul{
+        display: none;
+    }
+    .logo-section img{
+        width: 150px;
+    }
+
+
+    .hero-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .text-part{
+        width: 100%;
+        height: auto;
+        align-items: start;
+        justify-content: start;
+        padding-inline-start: 30px;
+    }
+
+    .img-part{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding-inline-start: 30px;
+    }
+
+    .img-part img{
+        width: 50%;
+    }
+    
+
+    .text h1 br{
+        display: none;
+    }
+
+    .text p br{
+        display: none;
+    }
+
+    .container2{
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar2{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-section{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card-section .card{
+
+        width: 40%;
+        height: auto;
+    }
+    }
+
+
+
+/* responsive start */
+
+@media (max-width : 480px) {
+
+  .main-container{
+      width: 100%;
+      height: auto;
+  }
+
+  .navbar{
+      width: 100%;
+      height: 70px;
+
+  }
+
+  .logo-section{
+      width: 30%;
+  }
+
+  .login-section{
+      width: 30%;
+
+  }
+
+  .logo-section ul{
+      display: none;
+  }
+  .logo-section img{
+      width: 150px;
+  }
+
+
+  .hero-section{
+      width: 100%;
+      height: auto;
+      flex-direction: column-reverse;
+  }
+
+  .text-part{
+      width: 100%;
+      height: auto;
+      align-items: start;
+      justify-content: start;
+      padding-inline-start: 30px;
+  }
+
+  .img-part{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      padding-inline-start: 30px;
+  }
+
+  .img-part img{
+      width: 50%;
+  }
+  
+
+  .text h1 br{
+      display: none;
+  }
+
+  .text p br{
+      display: none;
+  }
+
+  .container2{
+      width: 100%;
+      height: auto;
+  }
+
+  .navbar2{
+      width: 100%;
+      height: auto;
+  }
+
+  .card-section{
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  }
+  .card-section .card{
+
+      width: 50%;
+      height: auto;
+  }
+  }
+
+
+
+    
+
+
+
+    
